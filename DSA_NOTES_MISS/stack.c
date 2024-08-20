@@ -52,7 +52,7 @@ void pop()
     }
     else
     {
-        printf("Popped %d",stack[top]);
+        printf("Popped %d\n",stack[top]);
         top = top - 1;
     }
 }
