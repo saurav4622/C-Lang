@@ -15,7 +15,6 @@ int main()  // Fixed 'main' function declaration
     printf("1. REAR\n");
     printf("2. FRONT\n");
     printf("3. SHOW\n");
-    printf("4. EXIT\n");
 
     while(1)
     {
@@ -33,8 +32,6 @@ int main()  // Fixed 'main' function declaration
             case 3:
                 show();
                 break;
-            case 4:
-                exit(0);  // Exit the program
             default:
                 printf("Invalid Choice\n");
         }
