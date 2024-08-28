@@ -17,7 +17,6 @@ int main()
     printf("1. REAR (Enqueue)\n");
     printf("2. FRONT (Dequeue)\n");
     printf("3. SHOW\n");
-    printf("4. EXIT\n");
 
     while(1)
     {
